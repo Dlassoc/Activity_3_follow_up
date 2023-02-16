@@ -14,4 +14,8 @@ class Bank:
     def cuot(self):
         self.balance = self.balance - (self.balance * 0.02)
 
-        return self.balance
+    def show_details(self):
+        print("Los detalles de la cuenta de numero", self.number_account, "son:")
+        print(self.balance)
+        print (self.propietary)
+
