@@ -6,3 +6,12 @@ class Bank:
 
     def deposit(self, cant: float):
         self.balance += cant
+
+    def retire(self, cant: float):
+        if self.balance >= cant:
+            self.balance -= cant
+
+    def cuot(self):
+        self.balance = self.balance - (self.balance * 0.02)
+
+        return self.balance
