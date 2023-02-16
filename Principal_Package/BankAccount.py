@@ -17,5 +17,5 @@ class Bank:
     def show_details(self):
         print("Los detalles de la cuenta de numero", self.number_account, "son:")
         print(self.balance)
-        print (self.propietary)
+        print(self.propietary)
 
